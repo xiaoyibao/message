@@ -44,3 +44,8 @@ def vue_practise(request):
 
 def test(request):
     return render(request, 'index.html')
+
+
+
+def two(request):
+    return render(request, 'temp_one.html')
