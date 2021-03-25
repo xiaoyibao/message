@@ -40,3 +40,7 @@ class LogViewSet(viewsets.ModelViewSet):
 def vue_practise(request):
 
     return render(request, 'temp_one.html')
+
+
+def test(request):
+    return render(request, 'index.html')
