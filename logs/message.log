@@ -1,0 +1,735 @@
+{"date":"2018-10-22 14:02:06","level":"INFO","path":"views.ReceptorViewSet:13","a"}
+{"date":"2018-10-23 09:24:47","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /vue"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\PycharmProjects\Message\strategy\views.py", line 39, in vue_practise
+    print(request.data)
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+{"date":"2018-10-23 09:24:51","level":"ERROR","path":"basehttp.log_message:124",""GET /vue HTTP/1.1" 500 69087"}
+{"date":"2018-10-23 09:25:54","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /vue"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\PycharmProjects\Message\strategy\views.py", line 40, in vue_practise
+    print(request.data)
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+{"date":"2018-10-23 09:25:54","level":"ERROR","path":"basehttp.log_message:124",""GET /vue HTTP/1.1" 500 69222"}
+{"date":"2018-10-23 09:26:49","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /vue"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\PycharmProjects\Message\strategy\views.py", line 40, in vue_practise
+    print(R.data)
+AttributeError: module 'rest_framework.request' has no attribute 'data'
+{"date":"2018-10-23 09:26:50","level":"ERROR","path":"basehttp.log_message:124",""GET /vue HTTP/1.1" 500 69375"}
+{"date":"2018-10-23 09:31:23","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /vue"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\PycharmProjects\Message\strategy\views.py", line 41, in vue_practise
+    print(request.data)
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+{"date":"2018-10-23 09:31:23","level":"ERROR","path":"basehttp.log_message:124",""GET /vue HTTP/1.1" 500 69222"}
+{"date":"2018-10-23 16:59:36","level":"ERROR","path":"basehttp.log_message:124",""GET /receptor/ HTTP/1.1" 500 59"}
+{"date":"2018-10-23 17:00:08","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /receptor/"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 438, in run_validation
+    assert value is not None, '.validate() should return the validated data'
+AssertionError: .validate() should return the validated data
+{"date":"2018-10-23 17:00:08","level":"ERROR","path":"basehttp.log_message:124",""POST /receptor/ HTTP/1.1" 500 103888"}
+{"date":"2018-10-23 17:01:04","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /receptor/"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 438, in run_validation
+    assert value is not None, '.validate() should return the validated data'
+AssertionError: .validate() should return the validated data
+{"date":"2018-10-23 17:01:04","level":"ERROR","path":"basehttp.log_message:124",""POST /receptor/ HTTP/1.1" 500 103888"}
+{"date":"2018-10-23 17:01:42","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /receptor/1/"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 69, in update
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 438, in run_validation
+    assert value is not None, '.validate() should return the validated data'
+AssertionError: .validate() should return the validated data
+{"date":"2018-10-23 17:01:42","level":"ERROR","path":"basehttp.log_message:124",""PUT /receptor/1/ HTTP/1.1" 500 104236"}
+{"date":"2018-10-23 17:04:24","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /receptor/"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 438, in run_validation
+    assert value is not None, '.validate() should return the validated data'
+AssertionError: .validate() should return the validated data
+{"date":"2018-10-23 17:04:24","level":"ERROR","path":"basehttp.log_message:124",""POST /receptor/ HTTP/1.1" 500 104173"}
+{"date":"2018-10-23 17:04:59","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /receptor/"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 438, in run_validation
+    assert value is not None, '.validate() should return the validated data'
+AssertionError: .validate() should return the validated data
+{"date":"2018-10-23 17:04:59","level":"ERROR","path":"basehttp.log_message:124",""POST /receptor/ HTTP/1.1" 500 104351"}
+{"date":"2018-10-23 17:06:46","level":"ERROR","path":"basehttp.log_message:124",""GET /receptor/ HTTP/1.1" 500 59"}
+{"date":"2018-10-23 17:07:30","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /receptor/"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 438, in run_validation
+    assert value is not None, '.validate() should return the validated data'
+AssertionError: .validate() should return the validated data
+{"date":"2018-10-23 17:07:30","level":"ERROR","path":"basehttp.log_message:124",""POST /receptor/ HTTP/1.1" 500 104051"}
+{"date":"2018-10-23 17:08:18","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /receptor/"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 438, in run_validation
+    assert value is not None, '.validate() should return the validated data'
+AssertionError: .validate() should return the validated data
+{"date":"2018-10-23 17:08:18","level":"ERROR","path":"basehttp.log_message:124",""POST /receptor/ HTTP/1.1" 500 104051"}
+{"date":"2018-10-23 17:09:02","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /receptor/"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 438, in run_validation
+    assert value is not None, '.validate() should return the validated data'
+AssertionError: .validate() should return the validated data
+{"date":"2018-10-23 17:09:02","level":"ERROR","path":"basehttp.log_message:124",""POST /receptor/ HTTP/1.1" 500 104373"}
+{"date":"2018-10-23 17:09:24","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /receptor/"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 438, in run_validation
+    assert value is not None, '.validate() should return the validated data'
+AssertionError: .validate() should return the validated data
+{"date":"2018-10-23 17:09:25","level":"ERROR","path":"basehttp.log_message:124",""POST /receptor/ HTTP/1.1" 500 104050"}
+{"date":"2018-10-23 17:25:18","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /receptor/"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+{"date":"2018-10-23 17:25:18","level":"ERROR","path":"basehttp.log_message:124",""GET /receptor/ HTTP/1.1" 500 84761"}
+{"date":"2018-10-23 17:26:28","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /receptor/"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+{"date":"2018-10-23 17:26:29","level":"ERROR","path":"basehttp.log_message:124",""GET /receptor/ HTTP/1.1" 500 84897"}
+{"date":"2018-10-23 17:34:01","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /receptor/"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+{"date":"2018-10-23 17:34:01","level":"ERROR","path":"basehttp.log_message:124",""POST /receptor/ HTTP/1.1" 500 85897"}
+{"date":"2018-10-24 15:09:12","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /strategy/"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 510, in to_representation
+    fields = self._readable_fields
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\utils\functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 1054, in get_fields
+    fields[field_name] = field_class(**field_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\fields.py", line 1381, in __init__
+    self.choices = choices
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\fields.py", line 1417, in _set_choices
+    self.grouped_choices = to_choices_dict(choices)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\fields.py", line 152, in to_choices_dict
+    ret[choice] = choice
+TypeError: unhashable type: 'set'
+{"date":"2018-10-24 15:09:12","level":"ERROR","path":"basehttp.log_message:124",""GET /strategy/ HTTP/1.1" 500 146381"}
+{"date":"2018-10-24 15:10:30","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /strategy/"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 510, in to_representation
+    fields = self._readable_fields
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\utils\functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 1054, in get_fields
+    fields[field_name] = field_class(**field_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\fields.py", line 1381, in __init__
+    self.choices = choices
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\fields.py", line 1417, in _set_choices
+    self.grouped_choices = to_choices_dict(choices)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\fields.py", line 152, in to_choices_dict
+    ret[choice] = choice
+TypeError: unhashable type: 'set'
+{"date":"2018-10-24 15:10:30","level":"ERROR","path":"basehttp.log_message:124",""GET /strategy/ HTTP/1.1" 500 147135"}
+{"date":"2018-10-24 15:10:43","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /strategy/"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 510, in to_representation
+    fields = self._readable_fields
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\utils\functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 1054, in get_fields
+    fields[field_name] = field_class(**field_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\fields.py", line 1381, in __init__
+    self.choices = choices
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\fields.py", line 1417, in _set_choices
+    self.grouped_choices = to_choices_dict(choices)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\fields.py", line 152, in to_choices_dict
+    ret[choice] = choice
+TypeError: unhashable type: 'set'
+{"date":"2018-10-24 15:10:43","level":"ERROR","path":"basehttp.log_message:124",""GET /strategy/ HTTP/1.1" 500 147067"}
+{"date":"2018-11-26 10:12:09","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /receptor/"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'message_db.receptor' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 42, in list
+    page = self.paginate_queryset(queryset)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 173, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\pagination.py", line 204, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\paginator.py", line 46, in validate_number
+    if number > self.num_pages:
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\utils\functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\paginator.py", line 91, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\utils\functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\paginator.py", line 79, in count
+    return self.object_list.count()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\db\models\query.py", line 364, in count
+    return self.query.get_count(using=self.db)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\db\models\sql\query.py", line 499, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\db\models\sql\query.py", line 480, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\db\models\sql\compiler.py", line 894, in execute_sql
+    raise original_exception
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\db\models\sql\compiler.py", line 884, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\utils\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'message_db.receptor' doesn't exist")
+{"date":"2018-11-26 10:12:12","level":"ERROR","path":"basehttp.log_message:124",""GET /receptor/ HTTP/1.1" 500 238659"}
+{"date":"2018-12-03 13:21:54","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\request.py", line 77, in wrap_attributeerrors
+    yield
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\request.py", line 223, in user
+    self._authenticate()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\request.py", line 376, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\authentication.py", line 129, in authenticate
+    self.enforce_csrf(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\authentication.py", line 140, in enforce_csrf
+    check.process_request(request)
+AttributeError: 'CSRFCheck' object has no attribute 'process_request'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 400, in initial
+    self.perform_authentication(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 326, in perform_authentication
+    request.user
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\request.py", line 223, in user
+    self._authenticate()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\contextlib.py", line 100, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\request.py", line 81, in wrap_attributeerrors
+    six.reraise(type(exc), exc, info[2])
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\utils\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\request.py", line 77, in wrap_attributeerrors
+    yield
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\request.py", line 223, in user
+    self._authenticate()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\request.py", line 376, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\authentication.py", line 129, in authenticate
+    self.enforce_csrf(request)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\authentication.py", line 140, in enforce_csrf
+    check.process_request(request)
+rest_framework.request.WrappedAttributeError: 'CSRFCheck' object has no attribute 'process_request'
+{"date":"2018-12-03 13:21:55","level":"ERROR","path":"basehttp.log_message:124",""GET / HTTP/1.1" 500 150116"}
+{"date":"2019-03-27 16:28:42","level":"ERROR","path":"basehttp.log_message:124",""GET /group/ HTTP/1.1" 500 59"}
+{"date":"2019-03-27 16:37:40","level":"ERROR","path":"exception.handle_uncaught_exception:135","Internal Server Error: /log/"}
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`message_db`.`log`, CONSTRAINT `log_strategy_id_358647dd_fk_strategy_id` FOREIGN KEY (`strategy_id`) REFERENCES `strategy` (`id`))')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 21, in create
+    self.perform_create(serializer)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 26, in perform_create
+    serializer.save()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 214, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 940, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\db\models\query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\db\models\base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\db\models\base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\db\models\base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\db\models\base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\db\models\query.py", line 1079, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\db\models\sql\compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\utils\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Leon\AppData\Roaming\Python\Python36\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Leon\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`message_db`.`log`, CONSTRAINT `log_strategy_id_358647dd_fk_strategy_id` FOREIGN KEY (`strategy_id`) REFERENCES `strategy` (`id`))')
+{"date":"2019-03-27 16:37:43","level":"ERROR","path":"basehttp.log_message:124",""POST /log/ HTTP/1.1" 500 252322"}
